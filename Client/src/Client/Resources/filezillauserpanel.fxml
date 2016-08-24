@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Client.Controllers.FillezillauserpanelController">
+   <children>
+      <TreeView fx:id="remoteTree" layoutX="14.0" layoutY="85.0" onMouseClicked="#remoteTreeClickAction" prefHeight="262.0" prefWidth="242.0" />
+      <TreeView fx:id="localTree" layoutX="314.0" layoutY="85.0" prefHeight="262.0" prefWidth="242.0" onMouseClicked="#localTreeClickAction"/>
+      <Label layoutX="35.0" layoutY="56.0" text="Remote" />
+      <Label layoutX="324.0" layoutY="56.0" text="User" />
+   </children>
+</AnchorPane>
